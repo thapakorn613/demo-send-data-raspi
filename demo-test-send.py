@@ -13,6 +13,7 @@ class aarApi:
         self.DATA_NAME_COLLECTION = "messages"
         self.DATA_PATH_JSON_FILE = "./Admin_SDK.json"
         self.DATA_TEXT = ""
+        self.DATA_OFSET = 2000000000
         self.JSON_CONFIG = {
             "type": "service_account",
             "project_id": "site-web-aar",
@@ -33,6 +34,7 @@ class aarApi:
         dateTimeObj = datetime.now()
         timestampStr = dateTimeObj.strftime("%d - %b - %Y ( %H : %M : %S )")
         secondsSinceEpoch = time.time()
+        secondsSinceEpoch = self.DATA_OFSET - secondsSinceEpoch
         doc_ref = db.collection(
             u'' + self.DATA_NAME_COLLECTION).document(str(secondsSinceEpoch))
         data = {
