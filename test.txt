@@ -1,0 +1,6 @@
+ protocol = aarApi()
+    # set var to send
+    # msg_name = sys.argv[1]
+    msg_text = "5"
+    #  send data to fireabse
+    protocol.sendMessage(msg_name, msg_text)

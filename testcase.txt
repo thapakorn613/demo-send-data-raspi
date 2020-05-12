@@ -1,0 +1,11 @@
+
+
+
+if (varDetectFace == 5):
+    protocol = aarApi()
+    msg_name = "Art"
+    protocol.sendMessage(msg_name, varDetectFace)
+elif (varDetectFace == 16):
+    protocol = aarApi()
+    msg_name = "Bank"
+    protocol.sendMessage(msg_name, varDetectFace)

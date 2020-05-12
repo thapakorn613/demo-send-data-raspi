@@ -16,15 +16,15 @@ class aarApi:
         self.DATA_OFSET = 2000000000
         self.JSON_CONFIG = {
             "type": "service_account",
-            "project_id": "site-web-aar",
-            "private_key_id": "d1cfee1f52f314f5240615f6b6f512126c3c0090",
-            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDr4hNUo7YFBCag\nOOhkp8C+t6hKXWpF1mr2kLNwLsdXj26neYX47LHJEYBJJh4dPolvLKuGKkUvL9SO\nMlQhqZvXMelovwmsKTYRhlta/MMpPxa5EXuzEzQ+v3oABac/u18IzA/vcgZxzIYo\n+BTp1QsuWTczjJn4M/nwslE+gwVITjhn9L8+IZRZz6aqiZDJnuO1WE3CMZqgwlg4\nly8bJIJ5A3CGmAJamaMOFjiM78YrBXfAnOuIHhnh8hwAeVr8aELeahF5AScs4M/H\nYp5ySJw0QNM1FDM+wiECVfRvhkm70o1dMP6sULkHwri/j6wPAYHltCM06LBk8FMG\nftAqh6iFAgMBAAECggEAAyEpO36+i/t9nbOTlb5KBt297Fqn7cxF+AZ8cvkT6Pv8\nrlkk52QQicfjKVVJof6x6RkxH2MRLuqWCdruFdI/wI+ndp3OPYwAbSQYszDWUAZH\nwWXTe9E96LU2o6hvix9rx9yZO4aKQllB0GpWMLIEZ3WEj3kGk+3wm3pqLIelesuU\nW2cxNZV4LVw+OuiAAw6ldY0zu9sSKkO7xGmYTzyRLS+XeWcTtNYW81IAgivEsjb8\nbQ9LvlCDJXNIBvN9CzeOhwPEZCgKAbzZDe94Rpalutv2gvwFpmScPeR9xc6nLbNJ\nT18+1xu1NEnF8Z38XSKPaZZMHV4wkjPwfkxF2B998QKBgQD6oJLAs/oOvRyV4PFO\nWoEBTD3f75dQOJCdMHNb2uRY0pQi2wakhNiHLoUlwKnyOLMLgoSn2M2iilqGa8Dl\nYeQ6IVM5hf6V19yG+/sUHhETsfdusQwRXKtldd2d88I6mjQw+BO/yiyFcsz46Vhk\nMt7nRU5sFS4bLX0PJNbF3p56LQKBgQDw8JZeSvK+VqaGqLLtn6ZYHwIzzfMNgpMs\nyHApkPVnst5mjO7QPlWPdeIXBCGnMwqK2VZMVniE5YZeA5DccY+9MsV2qk7sFG8S\n1PdNqS4qSrs5i61DeOdKfWLL3raqxsy6teqwksfO5ATYAv0jUOVZqcHPXXfEWxJ9\nXwB44feWuQKBgQDTjidSMpmpR0iR20bVdN/gUJMKLBv1w0mO5g76QlLuBxK0OV3q\nEZkUwtfxfif2JpY76PhBFmi+AztWrC4vcepMh0TREaJMqeGkr57I5HhVv6u07A3b\nufWTt2JSqigRf4j+rOk+w1HBc55BnfbW3Xn6ji4cXeSFXGhsGBSTAc+UIQKBgQCl\nCmg2FujIcNqJCy3lj6KGYldD3SNMcdEWsAYEswMnEWM+o/NCOjCpoHpKgc37lf72\ntYFjsSfFAORVqeOk3TU0yH5ylp6RID4ljDQKwoSY+6/b7020FjF42QK/28MMoDjE\n/K/SW/j6Qz7+KK31bwhrrtjPjprnqeq0bksIguDyIQKBgHDLRbgaSgPWAzAzpw4g\nZPS5QMkVpEdsgpNNBfQ4JPo/Jv3cQ/cieBrMSDTFQZy372IqZaWDn4XoJ1N6LLQS\nY9eGHsJIwC5mL15mlQpHeJdAZLWKpbVZYkfkw5Mmk+IrMjBw2Xdmzt67HPED7Osh\ntc2jGnUOnk2089D2Gn6G2B+y\n-----END PRIVATE KEY-----\n",
-            "client_email": "firebase-adminsdk-hrznb@site-web-aar.iam.gserviceaccount.com",
-            "client_id": "116940754708158294111",
+            "project_id": "sj2-dashboard-web",
+            "private_key_id": "aeb12090b7dc1a33195741b6cfb7a941cc8caa98",
+            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC02jcPJUGO1tMp\nW5C2frgkXQIFIy1cywDQarETnLcjDrAfg/jV9iMRDWm3oSY+TDpk7YN5859Ywd3U\n4lqp63/KQLwHHHUUEysmU78SMwiy7j/dNFKJOHiFxyek1ipTnoM53OimwCoNp/DD\nYN4GNfZTnUThmYITLhlnfftVc6lA1edtKrvpnBJG1grbo9KFS+9nbehrgU7Y/pYZ\nIfsIhiMyVP8pvtJQMMINLxSxxvs5bpC8dz7aA4J5n1UGB+bU4bCKXHtC9Io7pAfk\nEr1e2rjXt86ZcFx59BxJQdkloeoHYzgaQALP5Mnscyav8w4/7Vq02wpkl16PJONi\nUBEDjbuDAgMBAAECggEAG3+2sYHbtwlpMDexCF66RyUxQnC33A0uAYLHjBDfM+Bu\n3Uvm0TnM2THt6jMBqqVSl7gZrrhheVB5F36XhJC/bJRtQrOMBdJoVDqVqgHCh9p8\nMXlcN2szwDupBoJeCzrl/y1c3sYHXu4zSLH48H7SBqK6L4d05M+0oyzfw32DtczP\nIxLu7Krr2jhNjiZ0epX97QEsoTbE0C6D6/uQu8ngacxU1fXaqHAuRNrxN56SP1ya\nnYgdSwqzpxGLVcHIqnh3V2GJfhbubmrys85t0O4NCSsnEyns2G1yqiVHGUcWfoWV\nfDghUnKvzJDeYV16Cwh7PbWz8mbfN10zw2guQERpAQKBgQDattSkoTLrF8X0Xtqt\nwtxa/Lah8lciokCgd3ry98jSpWlb3zS2K314rYjad+vhng7FBoPWzBZioCqDUaFp\nboCmdvkRSE+/dg6CTg09bo/7MY1rKR+QbaZgt4+MVY5wfyNi/1HphUV4SNU9Rced\ncbo8JpeF1mZaxL79YmAgB+hYAwKBgQDTrwNK2k7IJzkyjgyQPry9NmifRfrtomz7\nc0UIIiQ/u1/XvhMzfOx0Rl1yMJzofVIhGbzEvVZOiK6jBLQ3dyaz0BwM9yopJch2\nOtGkOrGAWOlCHFxonnjCzGZAan5MnE+oQXL6k8LkoV1auhg9YwiYcw8/ZT8Ttlli\nWVbw5Ph2gQKBgF9V6LTmS0Ksty4BFsM9OD41AArxjsfa/96ylhZIqfIgBh/02I47\nwNKUmh3Yvio3cmqxn1BG388Xz9A0Ce7iKxPkska1RYXImSR1j1Hi2sH85I78evTC\nxw5LlTfvp0okMTGa54KqBBEddk3iF9PqWeqUS+IcBbu1HSdn9UyhBccvAoGBAJCb\nRCKEU8FDmj1A8LAxS3nuizYS9kIT7WMw8X2G5UBsXiLhg/huZJFh6EAzmVzxD4Px\nMxUrSqRHlxViB0LEsLmxdxgcWL7XQsQRllkch1loY6B4A2CssU5Rl6B1n2XyejA0\n1bj76+2HlmB+NETrPFn4b/gc0CRFM3aOFWhm4p0BAoGANLWdjAGJDZGcoXHfgEpL\nboWOf5qbjexamhWByKRxvXrL22y5s0JaoKFLTkHnFI9IWN4rghcikLaYVH5IzlEc\nMeSBvFWpgHjIoYM2tJu/cVtz/rFYdBR/q4baY9S+hVDcmC8Y2uF+782zGHUgWr8a\nBGa/KmihfOBboKSyE9BgjgU=\n-----END PRIVATE KEY-----\n",
+            "client_email": "firebase-adminsdk-adzvd@sj2-dashboard-web.iam.gserviceaccount.com",
+            "client_id": "104648854302579403876",
             "auth_uri": "https://accounts.google.com/o/oauth2/auth",
             "token_uri": "https://oauth2.googleapis.com/token",
             "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-            "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hrznb%40site-web-aar.iam.gserviceaccount.com"
+            "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-adzvd%40sj2-dashboard-web.iam.gserviceaccount.com"
         }
 
     def sendMessage(self, data_name, data_text):
@@ -33,6 +33,7 @@ class aarApi:
         db = firestore.client()
         dateTimeObj = datetime.now()
         timestampStr = dateTimeObj.strftime("%d - %b - %Y ( %H : %M : %S )")
+        # secondsSinceEpoch = 1
         secondsSinceEpoch = time.time()
         secondsSinceEpoch = self.DATA_OFSET - secondsSinceEpoch
         doc_ref = db.collection(
@@ -50,7 +51,6 @@ if __name__ == "__main__":
     #  init api library
     protocol = aarApi()
     # set var to send
-    # msg_name = "art"
     msg_name = sys.argv[1]
     msg_text = "5"
     #  send data to fireabse
